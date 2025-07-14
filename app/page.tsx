@@ -71,8 +71,6 @@ export default function TerminalPortfolio() {
     about:
       () => 
 `Hi 👋, I'm Jaini Sai Abhiram — a curious and driven technologist based in Hyderabad, India. I thrive on turning ideas into reality through clean, impactful code.
-
-Currently, I'm working as a DevOps Engineer Intern at Copart India Technology Center, where I'm gaining hands-on experience in infrastructure automation and system reliability.
       
 I hold a Bachelor's degree in Computer Science from Keshav Memorial Engineering College, affiliated with Osmania University.
       
@@ -160,10 +158,6 @@ DevOps & Tools:
 `,
 
     experience: () => `Work Experience (Latest First):
-
-DevOps Engineer
-Copart India Technology Center · Internship
-Jul 2025 - Present · Hyderabad, Telangana, India · Hybrid
 
 Full Stack Developer Intern
 SiteUp · Internship
@@ -364,7 +358,7 @@ Type 'help' to see available commands.`;
         <div className="text-center text-xs lg:text-xs text-green-600 space-y-2 lg:space-y-3 flex-1 lg:flex-initial overflow-y-auto lg:overflow-visible w-full">
           {/* Location & Status */}
           <div className="border border-green-800 p-2 lg:p-3 rounded bg-gray-900 bg-opacity-20">
-          <p className="mb-1">🧳 DevOps Engineer Intern @Copart</p>
+          {/* <p className="mb-1">🧳 DevOps Engineer Intern @Copart</p> */}
             <p className="mb-1">📍 Hyderabad, India</p>
             <p className="mb-1">🎓 Computer Science Student</p>
           </div>
